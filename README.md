@@ -4,7 +4,7 @@ This script prevents AFK kicks in H1Z1 Just Survive by simulating periodic playe
 
 ## Important Notice
 
-⚠️ **This script must be run on Windows Python, NOT in WSL2**
+**This script must be run on Windows Python, NOT in WSL2**
 
 The script needs to control keyboard and mouse input for the H1Z1 game running on Windows.
 
@@ -51,7 +51,7 @@ You can edit `h1z1-anti-afk.py` to change:
 - Windows OS
 - Python 3.7+
 - Administrator privileges
-- H1Z1 Just Survive game
+- H1Z1 Just Survive game or any other game that kicks for AFK
 
 ## Files
 
@@ -59,3 +59,10 @@ You can edit `h1z1-anti-afk.py` to change:
 - `requirements.txt` - Python dependencies
 - `setup-venv.bat` - One-time setup script
 - `run-anti-afk.bat` - Launcher (run as admin)
+
+
+## Upcoming Features
+
+- Config file support
+- More customizable actions
+- Executable build for easier use
